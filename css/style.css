@@ -1,0 +1,478 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 h2 h3 h4 h5 h6 p a ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* header part css */
+header {
+    background-image: url(../image/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    position: relative;
+    padding: 0%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 45%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 45%;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* banner part css */
+.banner_content {
+
+    min-height: 90vh;
+    align-items: center;
+}
+
+.banner_content h5 {
+
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #008ed6;
+
+}
+
+.banner_content h1 {
+
+    color: #fff;
+    margin: 20px 0;
+}
+
+.banner_content p {
+
+    color: #999999;
+}
+
+.btn_dwonload {
+
+    color: #ffffff;
+    border: 1px solid #008ed3;
+    text-transform: uppercase;
+    background-color: #008ed3;
+    padding: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-top: 50px;
+    transition: .5s all ease-in-out;
+}
+
+.btn_dwonload:hover {
+
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.btn_features {
+
+    color: #ffffff;
+    border: 1px solid #008ed3;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 50px;
+    transition: .5s all ease-in-out;
+}
+
+.btn_features:hover {
+
+    color: #ffffff;
+    background-color: #008ed3;
+}
+
+.phone {
+    position: absolute;
+    bottom: 0;
+    right: 6%;
+}
+
+/* overview paer css */
+.overview h6 {
+
+    color: #008ed6;
+
+    font-size: 16px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    margin: 0;
+
+    margin-top: 50px;
+}
+
+.overview h2 {
+    position: relative;
+    margin: 0;
+    margin: 10px 0 30px 0;
+}
+
+.overview h2::before {
+    content: " ";
+    position: absolute;
+    left: 45%;
+    bottom: -20px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.overview h2:hover:before {
+    width: 4.5%
+}
+
+.overview h2::after {
+    content: " ";
+    position: absolute;
+    right: 45%;
+    bottom: -20px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.overview h2:hover::after {
+    width: 4.5%
+}
+
+.icon {
+
+    height: 55px;
+    width: 57px;
+    margin: auto;
+    line-height: 50px;
+    font-size: 25px;
+    color: #2aa1dd;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.overview_content h4 {
+
+    color: #1a1a1a;
+}
+
+.overview_content p {
+
+    color: #999999;
+    margin: 0;
+}
+
+
+/* details part css */
+.details_part {
+
+    border-top: 1px solid #e9ecef;
+}
+
+.phone_details {
+
+    width: 70%;
+
+    margin: auto;
+}
+
+.details {}
+
+.details h6 {
+    color: #008ed6;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.details h2 {
+    position: relative;
+    margin: 0;
+    margin: 10px 0 30px 0;
+}
+
+.details h2::before {
+    content: " ";
+    position: absolute;
+    left: 0%;
+    bottom: -15px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.details h2:hover:before {
+    width: 9%
+}
+
+.details h2::after {
+    content: " ";
+    position: absolute;
+    right: 80%;
+    bottom: -15px;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.details h2:hover::after {
+    width: 9%
+}
+
+.details p {
+    color: #999999;
+    margin: 0;
+    margin: 25px 0;
+}
+
+.details ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.details ul li {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.details_icon {
+
+    height: 28px;
+    line-height: 28px;
+    width: 27px;
+    font-size: 20px;
+    color: #008ed6;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.details_2 {
+    background-color: #f2f2f2;
+}
+
+/* testimonial_part css */
+.testimonial_part {
+    background-image: url(../image/testimonial.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.testimonial_part h2 {
+    color: #ffffff;
+}
+
+.testimonial_part p {
+    color: #ffffff;
+    font-style: italic;
+    margin: 0;
+    margin: 60px 0 30px 0;
+}
+
+.client {
+
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.client_img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.client_dec h5 {
+
+    margin: 0;
+}
+
+.client_dec h4 {
+
+    margin: 0;
+    font-size: 22px;
+}
+
+/* what_you_see part css */
+.what_you_see {
+
+    background-color: #000000;
+}
+
+.what_you_see h2 {
+
+    margin: 0;
+    color: #ffffff;
+}
+
+.what_you_see span {
+    font-weight: 300;
+}
+
+.what_you_btn {
+    color: red;
+
+}
+
+.what_you_see .btn_features {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.what_you_see .btn_dwonload {
+    margin: 0;
+}
+
+/* Pricings & Plans part css */
+.plan_table {
+
+    border: 1px solid #999999;
+}
+
+
+/* .plan_name */
+.plan_name h4 {
+
+    margin: 0;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid #999999;
+    transition: .8s all ease-in-out;
+}
+
+.plan_table:hover .plan_name h4 {
+    color: #008ed3;
+}
+
+
+/* plan_price */
+.plan_price {
+
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #999999;
+    transition: .8s all ease-in-out;
+}
+
+.plan_price h1 {
+
+    margin: 0;
+}
+
+sup {
+    top: -0.5em;
+    font-size: 25px;
+}
+
+.plan_price h6 {
+
+    margin: 0;
+    color: #999999;
+    font-weight: 400;
+    transition: .8s all ease-in-out;
+
+}
+
+.plan_table:hover .plan_price {
+    background-color: #008ed3;
+    color: #ffffff;
+}
+
+.plan_table:hover .plan_price h6 {
+    color: #ffffff;
+
+}
+
+/* plan_details */
+.plan_details {
+
+    text-align: center;
+}
+
+.plan_details p {
+
+    margin: 0;
+    padding: 0px 32px;
+    margin: 28px 0;
+}
+
+.plan_details p span {
+    color: #008ed6;
+}
+
+.plan_details a {
+
+    border: 1px solid #999999;
+    margin-bottom: 25px;
+    padding: 12px 25px;
+    color: #008ed6;
+    font-weight: 600;
+    transition: .8s all ease-in-out;
+}
+
+.plan_table:hover .plan_details a {
+    background-color: #008ed3;
+    color: #ffffff;
+}
